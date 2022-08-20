@@ -1,0 +1,124 @@
+body {
+  background: linear-gradient(
+    102.18deg,
+    #000121 0%,
+    #040865 71.82%,
+    #00022b 100%
+  );
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.inline {
+  height: 100%;
+  display: inline;
+}
+
+@media screen and (min-width: 1400px) {
+  .responsive-end-image {
+    margin-right: 50% !important;
+  }
+  .code-blue-logo {
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+
+  .near-code-blue {
+    margin-top: 9px;
+    margin-left: 15px;
+  }
+
+  .box-1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 47% !important;
+  }
+  .box-3 {
+    width: 100px;
+    height: 100px;
+    }
+  .box-2 {
+    width: 300px;
+    height: 600px;
+    padding-top: 300px;
+    border-right: 2px solid royalblue;
+    margin-top: -300px;
+    margin-left: 47% !important;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 1400px) {
+  .code-blue-logo {
+    margin-top: 29px;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  .near-code-blue {
+    margin-left: -28px;
+    margin-top: 35px;
+    position: absolute;
+  }
+
+  .box-1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 50% !important;
+    margin-top: 20px !important;
+  }
+  .box-2 {
+    display: none;
+  }
+  .box-3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 50% !important;
+    margin-top: 20px !important;
+  }
+}
+.heading {
+  position: absolute;
+  width: 492px;
+  height: 194px;
+  left: 100px;
+  top: 113px;
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 73px;
+  line-height: 97px;
+  color: #ffffff;
+}
+.heading2 {
+  position: absolute;
+  text-align-last: center;
+  width: 492px;
+  height: 194px;
+  left: 100px;
+  top: 350px;
+  font-family: "Prompt";
+  font-style: normal;
+  align-self: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97px;
+  color: #ffffff;
+}
+.div_heading2 {
+  position: absolute;
+  text-align-last: center;
+  width: 492px;
+  height: 194px;
+  left: 100px;
+  top: 350px;
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97px;
+  color: #ffffff;
+  align-content: center;
+}
+.next_gen{
+  color:#00A3FF";
+}
